@@ -1,0 +1,8 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "description": "RESTful API to manage simple eCommerce",
+  "main": "index.js",
+  "author": "Caspar Boetes",
+  "license": "MIT"
+}

@@ -3,8 +3,10 @@ const { Product } = require('../models')
 
 router.get('/products', (req, res, next) => {
   Product.find()
-  .sort({ createdAt: -1})
-  .then((products) => res.json(products))
+  .then((products) => {
+
+    res.json(products)
+  })
   .catch((error) => next(error))
   })
   .get('/products/:id', (req, res, next) => {
@@ -18,7 +20,7 @@ router.get('/products', (req, res, next) => {
   })
   .post('/products', (req, res, next) => {
     let newProduct = req.body
-
+console.log("foo");
     Product.create(newProduct)
       .then((product) => res.json(product))
       .catch((error) => next(error))

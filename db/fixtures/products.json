@@ -10,10 +10,11 @@
     "price": "15",
     "description": "Very nice to put something in your mouth",
     "image": "http://country929.com/files/2015/04/fork.jpg"
-  },  {
-      "name": "Spoon",
-      "price": "21",
-      "description": "If you like soup, this thing is what you need",
-      "image": "http://i.huffpost.com/gen/1302381/images/o-SPOON-facebook.jpg"
-    }
+  },
+  {
+    "name": "Spoon",
+    "price": "21",
+    "description": "If you like soup, this thing is what you need",
+    "image": "http://i.huffpost.com/gen/1302381/images/o-SPOON-facebook.jpg"
+  }
 ]

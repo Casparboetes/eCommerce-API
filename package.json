@@ -4,5 +4,11 @@
   "description": "RESTful API to manage simple eCommerce",
   "main": "index.js",
   "author": "Caspar Boetes",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
